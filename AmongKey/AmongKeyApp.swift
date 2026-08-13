@@ -40,7 +40,7 @@ func calculateUIPosition(ui_position: (ui_x: Int, ui_y: Int)) -> (x: Double, y: 
 }
 
 
-let JOYSTICK = (x: 227.589, y: 1873.375)
+let JOYSTICK = (x: 222, y: 885)
 let USE_BUTTON = calculateUIPosition(ui_position: (ui_x: 0, ui_y: 0))
 let KILL_BUTTON = calculateUIPosition(ui_position: (ui_x: 0, ui_y: 1))
 let REPORT_BUTTON = calculateUIPosition(ui_position: (ui_x: 1, ui_y: 0))
